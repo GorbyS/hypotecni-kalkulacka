@@ -1,0 +1,13 @@
+:host ::ng-deep .ui-card {
+  width: 400px;
+  height: 125px;
+  margin-top: 25px;
+  border: 1px solid #007ad9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:host ::ng-deep .ui-card-content {
+  color: #007ad9;
+}

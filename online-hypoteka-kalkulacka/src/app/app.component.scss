@@ -1,0 +1,39 @@
+p {
+  width: 350px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #007ad9;
+  margin-left: 600px;
+}
+
+.with-margin {
+  //margin-left: 250px;
+  color: #007ad9;
+}
+
+h2 {
+  //margin-top:50px;
+  color: #007ad9;
+}
+
+.without-margin {
+  //margin: none;
+  color: black;
+}
+i {
+  color: #007ad9;
+}
+.flex-container-second {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container-second > div {
+  margin: 10px;
+}
+.flex-container-third {
+  display: flex;
+  flex-direction: column;
+}
+.flex-container-third > div {
+  //margin: 10px;
+}

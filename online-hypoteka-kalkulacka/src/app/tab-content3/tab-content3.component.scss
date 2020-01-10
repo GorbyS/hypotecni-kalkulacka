@@ -1,0 +1,66 @@
+h2 {
+  color: #007ad9;
+  //margin-left: 25px;
+}
+
+p {
+  font-size: 20px;
+  color: #007ad9;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.flex-container-price-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-price-row > div {
+  //margin: 10px;
+
+}
+
+.flex-container-price-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-price-column > div {
+  //margin-left: 5px;
+}
+
+.flex-container-amount-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-amount-row > div {
+  //margin: 10px;
+}
+
+.flex-container-amount-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-amount-column > div {
+  //margin-left: 5px;
+}
+
+.flex-container-length-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-length-row > div {
+  //margin: 10px;
+}
+
+.flex-container-length-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-length-column > div {
+  //margin-left: 5px;
+}

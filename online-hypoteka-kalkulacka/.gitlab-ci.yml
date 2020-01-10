@@ -1,0 +1,22 @@
+image: node:10.16.0
+
+pages:
+  cache:
+    paths:
+      - node_modules/
+
+  stage: deploy
+  before_script:
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
+  script:
+    - npm install -g @angular/cli
+    - npm install
+    - ng build --prod
+    - mv dist/online-hypoteka-template/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+    - pages

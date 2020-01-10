@@ -1,0 +1,7 @@
+<!--<p-slider [(ngModel)]="appService.firstSliderValue"></p-slider>-->
+<!--{{appService.firstSliderValue}}-->
+
+<h3>{{val | currency:"Kč":'symbol':'4.0':"de"}}</h3>
+<p-slider [(ngModel)]="val" [style]="{'width':'500px'}" [step]="10000" [min]="200000" [max]="10000000"></p-slider>
+
+
