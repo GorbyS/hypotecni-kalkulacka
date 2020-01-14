@@ -25,6 +25,8 @@ import {registerLocaleData} from '@angular/common';
 import localeCs from '@angular/common/locales/cs';
 import localeDe from '@angular/common/locales/de';
 import {InputGroupComponent} from './input-group/input-group.component';
+import { RadioButtonComponent } from './radio-button/radio-button.component';
+import {RadioButtonModule} from 'primeng/radiobutton';
 
 registerLocaleData(localeCs, 'cs');
 registerLocaleData(localeDe, 'de');
@@ -43,6 +45,7 @@ registerLocaleData(localeDe, 'de');
     SliderComponent,
     FormatNumberPipe,
     InputGroupComponent,
+    RadioButtonComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +59,7 @@ registerLocaleData(localeDe, 'de');
     RouterModule,
     AppRoutes,
     CardModule,
+    RadioButtonModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]

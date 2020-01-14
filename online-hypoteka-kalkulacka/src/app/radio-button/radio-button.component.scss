@@ -1,0 +1,14 @@
+.flex-container-length-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-length-row > div {
+  width: 150px;
+  //margin-bottom: 10px;
+  color: #007ad9;
+}
+p {
+  color: #007ad9;
+  margin-top: 8px;
+}
